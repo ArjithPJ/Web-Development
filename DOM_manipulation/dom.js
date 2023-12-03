@@ -1,0 +1,12 @@
+var headerTitle=document.getElementById('header-title');
+var header=document.getElementById('main-header');
+console.log(headerTitle);
+//headerTitle.textContent='Hello';
+//headerTitle.innerText='World';
+console.log(headerTitle.innerText);
+//headerTitle.innerHTML='<h3>Hello</h3>';
+header.style.borderBottom='solid 3px #000';
+var title=document.getElementsByClassName('title');
+console.log(title[0]);
+title[0].style.color= 'green';
+title[0].style.fontWeight='bold';
